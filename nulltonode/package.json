@@ -3,6 +3,7 @@
   "description": "Null to Node Sample App",
   "version": "0.0.1",
   "dependencies": {
-    "express": "4.x"
+    "express": "4.x",
+    "express-handlebars": "3.x"
   }
 }
