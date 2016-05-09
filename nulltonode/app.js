@@ -2,7 +2,7 @@
 var express = require('express');
 var app = express();
 var routes = require('./routes');
-var hbs = require('express-handlebars');
+var hbs = require('express3-handlebars');
 
 //Set handlebars as the default template engine --> use main.handlebars as default
 app.engine('handlebars', hbs({defaultLayout: 'main'}));
